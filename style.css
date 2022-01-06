@@ -19,4 +19,18 @@
 }
 .sided-by{
     display: flex;
+    margin-bottom: 700px;
+}
+.midel{
+    align-items: center;
+}
+.in-sided{
+    display: flex;
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 40px;
+    border-radius: 10px;
+box-shadow: 10px 10px 40px gray;
+
 }
