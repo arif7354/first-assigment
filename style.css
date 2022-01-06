@@ -1,36 +1,69 @@
-.color-orange{
-    color: orange;
+body{
+    font-family: 'Oswald', sans-serif;
 }
-.in-line{
+.half-width img{
+    width: 65%;
+    
+}
+.half-width{
     width: 50%;
-    padding: 5px;
-    padding-left: 50px;
+    padding-left: 5%;
 }
-.in-line img{
-    width: 70%;
-    padding: 5px;
+.fexible-container{
+    display: flex;
+    margin-bottom: 150px;
 }
-.link-button{
-    text-decoration: none;
-    background-color: rgb(221, 10, 10);
-    padding: 10px 20px;
+h1{
+    font-family: 'Playfair Display', serif;
+    font-size: 40px;
+    font-weight: 700;
+}
+.salmon-color{
+    color: salmon;
+}
+#border{
+  
+    border-left: 3px solid;
+    border-image: linear-gradient(blue,cyan);
+    border-image-slice: 1;
     border-radius: 5px;
-    font-size: 20px;
+    padding-left: 7px;
 }
-.sided-by{
-    display: flex;
-    margin-bottom: 700px;
+.button{
+    text-decoration: none;
+    background-color: tomato;
+    color: white;
+    font-weight: 500;
+    border-radius: 5px;
+    padding: 5px 25px;
 }
-.midel{
-    align-items: center;
-}
-.in-sided{
-    display: flex;
-    width: 40%;
-    margin-left: 5%;
-    margin-right: 5%;
-    padding: 40px;
-    border-radius: 10px;
-box-shadow: 10px 10px 40px gray;
 
+.center{
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Work Sans', sans-serif;
+    color: #13103A;
+}
+.small-illu{
+    width: 40%;
+}
+.card-bg{
+    background-color: rgb(177, 202, 228);
+    padding: 30px;
+    border-radius: 10px;
+    margin-left: 20px;
+
+}
+.card-bg h3 {
+    font-size: 25px;
+    font-weight: 700;
+}
+.card-bg p{
+    color: rgb(77, 76, 76);
+}
+#color-1{
+    background-color: rgb(211, 190, 188);
+}
+#color-2{
+    background-color: rgb(196, 138, 127);
 }
